@@ -4,8 +4,14 @@
 
 ### @TODO: 
 - Expand the app so we collect the student's age and email and it shows the result in the console
+
+### Goal
 - ... the goal is, when your user submits an entry, they see the following in the console:
 - ... "Student: <Submitted Student Name>, Email: <submitted@email>, Age: <Submitted age>, Class: <Submitted class>
+
+### Code along
+- https://github.com/msimbo/f23c1-student-register Dele
+- https://codesandbox.io/s/01-wip-student-register-ctw9sl Amir
 
 ### HTML
 - create a form to get info from users
