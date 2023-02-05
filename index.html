@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student register</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link href="/dist/styles.css" rel="stylesheet">
+</head>
+
+<body class="p-2">
+    <form class=".bg-gray">
+        <input type="text" name="full-name" id="full-name" placeholder="Enter full name" class="border" />
+        <input type="email" name="email" id="email" placeholder="Enter Email" class="border" />
+        <input type="number" name="age" id="age" placeholder="Enter age" class="border" />
+        <input type="text" name="s-class" id="s-class" placeholder="Enter class" class="border" />
+        <select name="classes" id="s-class-select" class="bg-[#f8f9fa] border rounded text-sm py-1.5 m-1">
+            <option value="">Please select your class</option>
+            <option value="">Class A</option>
+            <option value="">Class B</option>
+            <option value="">Class C</option>
+        </select>
+        <input type="submit" value="Add Student" class="bg-[#f8f9fa] border rounded w-full text-sm py-1.5 m-1" />
+    </form>
+
+    <table class="w-full mt-6 p-3">
+        <thead class="bg-blue-100 font-bold">
+            <tr>
+                <td>Student name</td>
+                <td>Email</td>
+                <td class="px-1">Age</td>
+                <td class="px-1">Class</td>
+                <td></td>
+            </tr>
+        </thead>
+        <tbody id="students-table">
+            <!-- <tr>
+          <td>a</td>
+          <td>a@a.com</td>
+          <td>1</td>
+          <td>A</td>
+          <td>
+            <button class="bg-[#f8f9fa] border rounded px-2 text-sm py-1.5 m-1">
+              Delete
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>b</td>
+          <td>b@b.com</td>
+          <td>2</td>
+          <td>B</td>
+          <td>
+            <button class="bg-[#f8f9fa] border rounded px-2 text-sm py-1.5 m-1">
+              Delete
+            </button>
+          </td>
+        </tr> -->
+        </tbody>
+    </table>
+    <!-- <input
+      type="button"
+      value="Delete last record"
+      id="delete"
+      class="bg-[#f8f9fa] border rounded w-full text-sm py-1.5 m-1"
+    /> -->
+
+    <script src="src/index.js"></script>
+</body>
+
+</html>
